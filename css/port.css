@@ -51,7 +51,44 @@ body {
     margin: 0 1.5em;
 }
 
-/* メディアクエリ */
+.TopTitle {
+    font-size: 5rem;
+    font-family: Academy Engraved LET;
+    color: #b49458;
+}
+
+.TopInner1 {
+    padding-top: 1.5em;
+    margin-left: 1.8em;
+}
+
+.TopInner2 {
+    margin-top: -0.1em;
+    margin-left: 7.4em;
+}
+
+.TopInner3 {
+    margin-left: 3.4em;
+}
+
+.TopTitle hr {
+    width: 7em;
+    height: 3px;
+    border: none;
+    background-color: #b49458;
+    margin-top: 0.3em;
+    margin-left: 0.5em;
+}
+
+.TopInner4_flex {
+    display: flex;
+}
+
+.TopInner4 {
+    margin-left: 0.2em;
+}
+
+
 /* メディアクエリ */
 @media (max-width: 390px) {
     body {
