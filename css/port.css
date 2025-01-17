@@ -53,8 +53,8 @@ body {
 
 .TopTitle {
     opacity: 0;
-    transform: translate(-20px);
-    transition: opacity 4s ease, transform 4s ease;
+    /* transform: translateY(20px); */
+    transition: opacity 4s ease;
     font-size: 5rem;
     font-family: Academy Engraved LET;
     color: #b49458;
@@ -62,7 +62,7 @@ body {
 
 .TopTitle.visible {
     opacity: 1;
-    transform: translateY(0);
+    /* transform: translateY(0); */
 }
 
 .TopInner1 {
@@ -145,8 +145,6 @@ body {
 
     /* メニューを縦並びに */
     .menu {
-        /* display: none; */
-
         /* 初期状態は非表示 */
         flex-direction: column;
         /* 縦並びに変更 */
@@ -159,10 +157,8 @@ body {
         left: 0;
         width: 100%;
         overflow: hidden;
-        /* スクロールバーを隠す */
         max-height: 0;
-        /* 高さをゼロにして非表示 */
-        transition: all 0.8s ease-out;
+        transition: max-height 0.8s ease-out;
     }
 
     .menu a {
