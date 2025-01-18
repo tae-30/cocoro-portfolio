@@ -148,8 +148,18 @@ body {
     margin-top: 1em;
 }
 
-.Skills {
+.Skill {
     background-color: #b49458;
+}
+
+.SkillsInner {
+    color: white;
+    font-size: 2em;
+}
+
+.SkillsInner p {
+    margin-left: 5em;
+    margin-bottom: 1.4em;
 }
 
 /* メディアクエリ */
@@ -253,5 +263,13 @@ body {
 
     .InnerText {
         margin-left: 5em;
+    }
+
+    .SkillsInner {
+        font-size: 1.4em;
+    }
+
+    .SkillsInner p {
+        margin-left: 1.3em;
     }
 }
