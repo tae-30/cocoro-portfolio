@@ -94,14 +94,14 @@ body {
     margin-left: 0.2em;
 }
 
-.AboutTop {
+.ItemTop {
     font-family: Georgia;
     color: #b49458;
     display: flex;
     margin-top: 13em;
 }
 
-.AboutTop hr {
+.ItemTop hr {
     width: 3em;
     height: 2px;
     border: none;
@@ -146,6 +146,10 @@ body {
 
 .AboutLastText {
     margin-top: 1em;
+}
+
+.Skills {
+    background-color: #b49458;
 }
 
 /* メディアクエリ */
@@ -211,8 +215,8 @@ body {
         width: 5em;
     }
 
-    .AboutTop {
-        margin-top: 20em;
+    .ItemTop {
+        margin-top: 12em;
     }
 
     .ItemBig {
@@ -226,7 +230,7 @@ body {
     }
 
 
-    .AboutTop hr {
+    .ItemTop hr {
         margin-top: 2.7em;
         margin-left: -2em;
     }
