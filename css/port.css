@@ -230,4 +230,24 @@ body {
         margin-top: 2.7em;
         margin-left: -2em;
     }
+
+    .AboutInner {
+        display: block;
+    }
+
+    .AboutInner img {
+        width: 13em;
+        height: 17em;
+        margin-left: 2em;
+    }
+
+    .AboutInnerText {
+        font-size: 0.9em;
+        margin-top: 0.8em;
+        margin-left: 2em;
+    }
+
+    .InnerText {
+        margin-left: 5em;
+    }
 }
