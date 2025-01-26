@@ -162,6 +162,12 @@ body {
     margin-bottom: 1.4em;
 }
 
+.WorksInner img {
+    width: 45em;
+    height: 7em;
+    margin: 2em 10em;
+}
+
 /* スマホ用メディアクエリ */
 @media (max-width: 480px) {
     body {
@@ -271,5 +277,11 @@ body {
 
     .SkillsInner p {
         margin-left: 1.3em;
+    }
+
+    .WorksInner img {
+        width: 20em;
+        height: 7em;
+        margin: 1.5em 2em;
     }
 }
