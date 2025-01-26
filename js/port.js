@@ -19,7 +19,7 @@ document.addEventListener("DOMContentLoaded", () => {
             // 対象のセクションIDを取得してスクロール
             // クリックされたリンクの属性値を取得しtargetIdに格納
             const targetId = this.getAttribute('href');
-            gsap.to(window, { scrollTo: targetId, duration: 1.2 });
+            gsap.to(window, { scrollTo: targetId, duration: 0.7 });
 
             // メニューを閉じる
             const menu = document.querySelector('.menu');
