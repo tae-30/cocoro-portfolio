@@ -324,4 +324,29 @@ body {
         height: 7em;
         margin: 1.5em 2em;
     }
+
+    .instagramLink {
+        font-size: 1.2em;
+    }
+
+
+    .instagramLink p {
+        margin: 2em 1em;
+    }
+
+    .instagramLink a {
+        margin: 2em 0em;
+    }
+
+    .Mail {
+        margin: 0em 1em;
+    }
+
+    .MailLink {
+        font-size: 1.2em;
+    }
+
+    .MailLink a {
+        margin-left: 2.5em;
+    }
 }
