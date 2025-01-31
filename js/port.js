@@ -4,10 +4,15 @@ document.addEventListener("DOMContentLoaded", () => {
         const menu = document.querySelector('.menu');
         menu.classList.toggle('open');
     });
+    visible();
 
     // TopTitleのアニメーション
-    const topTitle = document.querySelector(".TopTitle");
-    topTitle.classList.add("visible");
+    function visible() {
+        const topTitle = document.querySelector(".TopTitle");
+        topTitle.classList.add("visible");
+
+    }
+
 
     // メニュー内リンクを取得してスクロール処理を一括登録
     const menuLinks = document.querySelectorAll('.menu a');
