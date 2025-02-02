@@ -163,6 +163,7 @@ body {
 }
 
 .WorksInner img {
+    display: block;
     width: 45em;
     height: 7em;
     margin: 2em 10em;
@@ -324,8 +325,10 @@ body {
     .WorksInner img {
         width: 20em;
         height: 7em;
-        margin: 1.5em 2em;
+        margin: 2.5em 2em;
+
     }
+
 
     .instagramLink {
         font-size: 1.2em;
