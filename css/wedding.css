@@ -30,7 +30,8 @@ body {
 }
 
 .TopTitle {
-    font-size: 3rem;
+    font-size: 4rem;
+    font-family: "Dancing Script", serif;
     padding: 1.3em 1em;
     color: #b49458;
 }
@@ -47,6 +48,11 @@ body {
 
     .Back {
         font-size: 16px;
+    }
+
+    .TopTitle {
+        font-size: 2.5rem;
+        padding: 1.7em 0.5em;
     }
 }
 
