@@ -6,7 +6,7 @@
 
 /* 背景と基本フォントサイズ */
 body {
-    background-color: #FFFFFF;
+    background-color: beige;
     font-size: 100%;
 }
 
@@ -29,8 +29,14 @@ body {
     color: #FFFFFF;
 }
 
+.TopTitle {
+    font-size: 3rem;
+    padding: 1.3em 1em;
+    color: #b49458;
+}
+
 /* スマホ用メディアクエリ */
-@media (max-width: 480px) {
+@media screen and (max-width: 768px) {
     body {
         font-size: 16px;
     }
@@ -43,3 +49,6 @@ body {
         font-size: 16px;
     }
 }
+
+/* タブレット(縦向き)用メディアクエリ */
+@media screen and (min-width: 769px) and (max-width: 1024px) {}
