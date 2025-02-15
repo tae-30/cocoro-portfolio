@@ -121,7 +121,7 @@ body {
 
 .AboutInner {
     display: flex;
-    color: #E8D758;
+    color: black;
 }
 
 .AboutInner p {
@@ -210,7 +210,7 @@ body {
 }
 
 /* スマホ用メディアクエリ */
-@media (max-width: 480px) {
+@media screen and (max-width: 768px) {
     body {
         font-size: 16px;
     }
@@ -353,5 +353,108 @@ body {
 
     .MailLink a {
         margin-left: 2.5em;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    body {
+        font-size: 18px;
+    }
+
+    .MenuIcon {
+        display: block;
+    }
+
+    .TopHeader {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 1em;
+    }
+
+    .TopText {
+        margin-right: 0;
+    }
+
+    .menu {
+        flex-direction: column;
+        align-items: flex-start;
+        background-color: #b49458;
+        padding: 0em 2em;
+        position: absolute;
+        top: 100%;
+        left: 0;
+        width: 100%;
+        overflow: hidden;
+        max-height: 0;
+        transition: max-height 0.8s ease-out;
+    }
+
+    .menu a {
+        font-size: 1.2em;
+        color: white;
+        margin: 0.7em 0;
+        text-align: left;
+    }
+
+    .menu.open {
+        display: flex;
+        max-height: 300px;
+    }
+
+    .TopTitle {
+        font-size: 3em;
+        margin-left: 1.7em;
+        padding-top: 4em;
+    }
+
+    .TopTitle hr {
+        width: 6em;
+    }
+
+    .ItemTop {
+        margin-top: 10em;
+    }
+
+    .ItemBig {
+        font-size: 3.5em;
+        margin-left: 0.5em;
+    }
+
+    .ItemSub {
+        margin-top: 3.3em;
+        margin-right: 1.3em;
+    }
+
+    .AboutInner {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+
+    .AboutInner img {
+        width: 15em;
+        height: 19em;
+        margin-left: 2em;
+    }
+
+    .AboutInnerText {
+        font-size: 1em;
+        margin-left: 2em;
+    }
+
+    .WorksInner img {
+        width: 28em;
+        height: 8em;
+        margin: 2em 10em;
+    }
+
+    .instagramLink,
+    .MailLink {
+        font-size: 1.4em;
+    }
+
+    .MailLink a {
+        margin-left: -0.5em;
     }
 }
