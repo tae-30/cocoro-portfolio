@@ -16,6 +16,7 @@ body {
     background-color: #b49458;
     width: 100%;
     padding: 0.5em 2%;
+    z-index: 1;
 
 }
 
@@ -28,6 +29,39 @@ body {
     text-decoration: none;
     color: #FFFFFF;
 }
+
+.TopTitle {
+    font-size: 4rem;
+    font-family: "Dancing Script", serif;
+    padding: 1.3em 1em;
+    color: #b49458;
+}
+
+.animationImg {
+    display: flex;
+}
+
+.animationImg img {
+    width: 500px;
+    height: 350px;
+    object-fit: cover;
+    margin: 0.8em 0em;
+    margin-right: 1em;
+}
+
+.animationImg2 {
+    display: flex;
+}
+
+.animationImg2 img {
+    width: 300px;
+    height: 500px;
+    object-fit: cover;
+    margin: 1em 0em;
+    margin-right: 1em;
+}
+
+
 
 /* スマホ用メディアクエリ */
 @media screen and (max-width: 768px) {
@@ -42,7 +76,63 @@ body {
     .Back {
         font-size: 16px;
     }
+
+    .TopTitle {
+        font-size: 2.5rem;
+        padding: 1.7em 0.5em;
+    }
+
+    .animationImg {
+        display: block;
+    }
+
+    .animationImg img {
+        width: 100%;
+        height: 100%;
+        margin: 1em 0em;
+    }
+
+    .animationImg2 {
+        display: block;
+    }
+
+    .animationImg2 img {
+        width: 100%;
+        height: 100%;
+        margin: 1em 0em;
+    }
+
+
+
 }
 
-/* タブレット用メディアクエリ */
-@media screen and (min-width: 769px) and (max-width: 1024px) {}
+/* タブレット(縦向き)用メディアクエリ */
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+    .Back {
+        font-size: 1em;
+    }
+
+    .TopTitle {
+        padding-top: 1em;
+        padding-left: 0.5em;
+    }
+
+    .animationImg img {
+        width: 360px;
+        height: 230px;
+        object-fit: cover;
+        margin: 2em 0em;
+        margin-top: 0.8em;
+        margin-left: 0em;
+        margin-right: 1em;
+    }
+
+    .animationImg2 img {
+        width: 360px;
+        height: 500px;
+        object-fit: cover;
+        margin: -1em 2em;
+        margin-left: 0em;
+        margin-right: 1em;
+    }
+}

@@ -126,6 +126,10 @@ body {
 
 /* タブレット(縦向き)用メディアクエリ */
 @media screen and (min-width: 769px) and (max-width: 1024px) {
+    .Back {
+        font-size: 1em;
+    }
+
     .TopTitle {
         padding-top: 1em;
         padding-left: 0.5em;
