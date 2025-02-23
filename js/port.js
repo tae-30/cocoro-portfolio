@@ -1,4 +1,9 @@
 document.addEventListener("DOMContentLoaded", () => {
+    window.addEventListener("load", () => {
+        setTimeout(() => {
+            window.scrollTo(0, 0);
+        }, 50); // 50ms 遅延
+    });
     // Menuボタンのクリックイベント
     document.querySelector('.MenuIcon').addEventListener('click', function () {
         const menu = document.querySelector('.menu');
